@@ -1,14 +1,14 @@
 /* eslint-disable import/prefer-default-export */
-import styled from 'styled-components';
+import { Col } from './GridCol';
+import { Container } from './GridContainer';
+import { Row } from './GridRow';
+
 
 export const Grid = {
-  Container: styled.div`
 
-    `,
-  Row: styled.div`
+  Container,
 
-    `,
-  Col: styled.div`
+  Row,
 
-    `,
+  Col,
 };
