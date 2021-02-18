@@ -1,3 +1,5 @@
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable import/prefer-default-export */
 import styled, { css } from 'styled-components';
 import get from 'lodash/get';
 import { TextStyleVariants } from '../../foundation/Text';

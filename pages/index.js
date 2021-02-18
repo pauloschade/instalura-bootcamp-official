@@ -1,7 +1,8 @@
-import Footer from '../src/components/commons/Footer'
-import Menu from '../src/components/commons/Menu'
-import { Text } from '../src/components/foundation/Text'
-import { Button } from '../src/components/commons/Button'
+import Footer from '../src/components/commons/Footer';
+import Menu from '../src/components/commons/Menu';
+import { Text } from '../src/components/foundation/Text';
+import { Button } from '../src/components/commons/Button';
+import { Grid } from '../src/components/foundation/layout/Grid';
 
 export default function Home() {
   return (
@@ -11,9 +12,20 @@ export default function Home() {
       flexWrap: 'wrap',
       flexDirection: 'column',
       justifyContent: 'space-between',
-    }}>
+    }}
+    >
       <Menu />
 
+      <Grid.Container>
+        <Grid.Row>
+          <Grid.Col>
+            Textos
+          </Grid.Col>
+          <Grid.Col>
+            <img src="https://placehold.it/400x400" />
+          </Grid.Col>
+        </Grid.Row>
+      </Grid.Container>
 
       <div>
         <Text
@@ -52,8 +64,7 @@ export default function Home() {
         </Button>
       </div>
 
-
       <Footer />
     </div>
-  )
+  );
 }
