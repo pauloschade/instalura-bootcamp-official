@@ -13,18 +13,18 @@ export const Container = styled.div`
 
 
   ${breakpointsMedia({
-  sm: css`
+    sm: css`
     max-width: 576px; 
   `,
-  md: css`
+    md: css`
     max-width: 768px;
     padding-right: 16px;
     padding-left: 16px; 
   `,
-  lg: css`
+    lg: css`
     max-width: 1160px; 
   `,
-  xl: css`
+    xl: css`
     max-width: 1222px;
   `,
   })}
