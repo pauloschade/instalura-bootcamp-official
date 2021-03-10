@@ -29,5 +29,11 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "shelljs": "^0.8.4"
   },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn lint",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "license": "MIT"
 }
